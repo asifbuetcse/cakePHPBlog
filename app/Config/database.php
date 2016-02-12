@@ -67,7 +67,7 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
+		'datasource' => 'Database/PGSQL',
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'adminELmHkTx',
