@@ -67,12 +67,12 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Postgres',
+		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'postgres',
-		'password' => '123',
-		'database' => 'cakePHPBlog',
+		'login' => 'root',
+		'password' => 'root',
+		'database' => 'cakePHP',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
